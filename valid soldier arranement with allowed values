@@ -1,0 +1,16 @@
+Problem Statement
+
+You are given:
+
+An integer n representing the total number of soldiers standing in a straight line.
+An array values[] containing allowed soldier numbers.
+An integer end representing the required number of the last soldier.
+
+Your task is to count all possible valid soldier arrangements such that:
+
+Each soldier’s number must be chosen only from values[].
+The first soldier’s number must always be 1.
+The last soldier’s number must always be end.
+No two adjacent soldiers can have the same number.
+
+Return the total number of valid arrangements
